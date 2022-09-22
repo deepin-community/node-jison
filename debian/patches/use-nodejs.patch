@@ -1,0 +1,11 @@
+Description: Use nodejs
+Index: node-jison/lib/cli.js
+===================================================================
+--- node-jison.orig/lib/cli.js
++++ node-jison/lib/cli.js
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env node
++#!/usr/bin/env nodejs
+ 
+ function getCommandlineOptions () {
+     "use strict";
